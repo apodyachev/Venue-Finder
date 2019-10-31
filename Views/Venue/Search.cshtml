@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h1>Search</h1>
+@foreach(var venue in Model) 
+{ 
+<div>
+    @venue.id<br />
+    @venue.name<br />
+    @venue.description<br />
+    @venue.photo<br />
+    @venue.address<br />
+    @venue.city<br />
+    @venue.state<br />
+    @venue.zip<br />
+</div>
+}
+

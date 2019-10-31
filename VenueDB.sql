@@ -1,0 +1,2 @@
+CREATE TABLE  venue(venue_id int, name CHAR(50), description TEXT, profile_photo CHAR(50), address CHAR(50), city CHAR(50), state CHAR(50), zip INT, PRIMARY KEY (venue_id));
+INSERT INTO venue (venue_id, name, description, profile_photo, address, city, state, zip) VALUES (1, 'Ballroom','it is a Ballroom', 'photo.jpg', '123 Main St.', 'Town', 'State', 12345);
